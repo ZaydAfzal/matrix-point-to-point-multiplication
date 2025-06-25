@@ -5,7 +5,7 @@ input start, rst, clk,
 output reg done,
 output reg [7:0] cout
 );
-integer i;
+reg [4:0] i;
 reg we;
 parameter size = 16;
 // rom
